@@ -1,0 +1,144 @@
+/* Mobile first */
+.container{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "hd" 
+      "main"
+      "sd"
+      "ft";
+      background-color: bisque;
+  }
+  
+    .box{
+      padding: 0 5px;
+    }
+  
+    .header{
+      grid-area:hd;
+      text-align: center;
+    }
+    .footer{
+      grid-area: ft;  
+      text-align: center;
+    }
+    .sidebar{
+      grid-area: sd;
+      padding: 0 5px;
+    }
+    .content{
+      grid-area: main;
+    }
+    
+    #contentGrid{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .blogpost{
+      border: 1px solid black;
+      width: 90%;
+      margin: 15px auto;
+    }
+
+    .desc{
+      margin-block-start: 5px;
+      margin-block-end: 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    div.blogpost img {
+      width: 100%;
+      height: auto;
+    }
+
+    .blogpost:hover{
+      border: 1px solid red;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      cursor: pointer;
+    }
+  
+    .nav-btn {
+      display: inline-block;
+      color: black;
+      border: none;
+      padding: 0.1em 0.6em;
+      outline: none;
+      text-align: center;
+      font-size: 1em;
+      margin: 0 0.2em;
+      text-decoration: none;
+    }
+
+    .nav-btn:focus,
+    .nav-btn:hover {
+      color: red;
+    }
+
+    /* Author Sidebar */
+    .author{
+      width: 90%;
+      margin: auto;
+    }
+
+    .author img{
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    /* Buttons */
+    .back-btn {
+      background-color: #4CAF50; /* Green */
+      border: 2px solid #4CAF50;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .back-btn:hover {
+      background-color: white;
+      color: black;
+    }
+  
+  /* If Screen Is Wide Enough */
+  @media(min-width:900px){
+  .container{
+        display:grid;
+        width: 80%;
+        margin:auto;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "hd hd"
+        "main sd"
+        "ft ft";
+    }
+
+  .blogpost{
+    border: 1px solid black;
+    width: 80%;
+    margin: 25px auto;
+  }
+
+  /* Author Sidebar */
+  .author{
+    width: 100%;
+  }
+}
