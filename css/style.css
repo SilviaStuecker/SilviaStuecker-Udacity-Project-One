@@ -127,9 +127,9 @@
         grid-template-columns: 75% 25%;
         grid-template-rows: auto auto;
         grid-template-areas:
-        "hd hd"
-        "sd main"
-        "ft ft";
+        "hd hd hd hd"
+        "sd main main main"
+        "ft ft ft ft";
     }
 
   .blog{
