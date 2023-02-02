@@ -54,7 +54,9 @@
     }
 
     .blog:hover{
-      border: 1cm solid purple;
+        width: 13cm;
+        height: 9cm;
+      border: 2px solid purple;
     }
 
     /* Navbar */
@@ -130,7 +132,7 @@
         "ft ft";
     }
 
-  .blogpost{
+  .blog{
     border: 1px solid black;
     width: 80%;
     margin: 25px auto;
