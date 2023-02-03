@@ -35,12 +35,6 @@
       flex-direction: column;
     }
 
-    .blog{
-      border: 1px solid palevioletred;
-      width: 9cm;
-      height: 4cm;
-    }
-
     .desc{
       /*margin-block-start: 5px;
       margin-block-end: 10px; */
@@ -51,12 +45,6 @@
     div.blog img {
       width: 9cm;
       height: 4cm;
-    }
-
-    .blog:hover{
-        width: 9cm;
-        height: 4cm;
-        border: 2px solid purple;
     }
 
 .picture{
@@ -138,22 +126,9 @@
         "ft ft";
     }
 
-  .blog{
-    border: 1px solid palevioletred;
+    div.blog img {
     width: 13cm;
     height: 9cm;
-  }
-
-  
-  div.blog img {
-    width: 13cm;
-    height: 9cm;
-  }
-
-  .blog:hover{
-      width: 13cm;
-      height: 9cm;
-      border: 2px solid purple;
   }
 
   .picture{
