@@ -156,8 +156,9 @@
       border: 2px solid purple;
   }
 
-  /* Author Sidebar */
-  .author{
-    width: 100%;
+  .picture{
+    width: 13cm;
+    height: 9cm;
   }
+
 }
