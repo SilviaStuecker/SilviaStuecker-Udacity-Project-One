@@ -42,8 +42,8 @@
     }
 
     .desc{
-      margin-block-start: 5px;
-      margin-block-end: 10px;
+      /*margin-block-start: 5px;
+      margin-block-end: 10px; */
       font-size: 20px;
       text-align: center;
     }
@@ -62,17 +62,17 @@
     /* Navbar */
     .navbar {
       display: flex;
-      align-items: center;
+      /*align-items: center;
       justify-content: center;
-      flex-wrap: wrap;
+      flex-wrap: wrap; */
       cursor: pointer;
     }
   
     .nav-btn {
-      display: inline-block;
+      display: list-item;
       color: black;
       border: none;
-      padding: 0.1em 0.6em;
+      /*padding: 0.1em 0.6em;*/
       outline: none;
       text-align: center;
       font-size: 1em;
