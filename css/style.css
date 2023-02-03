@@ -59,6 +59,12 @@
         border: 2px solid purple;
     }
 
+.picture{
+  width: 9cm;
+  height: 4cm;
+}
+
+
     /* Navbar */
     .navbar {
       display: flex;
