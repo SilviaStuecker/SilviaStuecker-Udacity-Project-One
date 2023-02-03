@@ -37,8 +37,8 @@
 
     .blog{
       border: 1px solid palevioletred;
-      width: 13cm;
-      height: 9cm;
+      width: 9cm;
+      height: 4cm;
     }
 
     .desc{
@@ -49,13 +49,13 @@
     }
 
     div.blog img {
-      width: 13cm;
-      height: 9cm;
+      width: 9cm;
+      height: 4cm;
     }
 
     .blog:hover{
-        width: 13cm;
-        height: 9cm;
+        width: 9cm;
+        height: 4cm;
         border: 2px solid purple;
     }
 
@@ -122,7 +122,7 @@
   @media(min-width:900px){
   .container{
         display:grid;
-        width: 80%;
+        /*width: 80%;*/
         margin:auto;
         grid-template-columns: 25% 75%;
         grid-template-rows: auto auto;
@@ -133,9 +133,21 @@
     }
 
   .blog{
-    border: 1px solid black;
-    width: 80%;
-    margin: 25px auto;
+    border: 1px solid palevioletred;
+    width: 13cm;
+    height: 9cm;
+  }
+
+  
+  div.blog img {
+    width: 13cm;
+    height: 9cm;
+  }
+
+  .blog:hover{
+      width: 13cm;
+      height: 9cm;
+      border: 2px solid purple;
   }
 
   /* Author Sidebar */
