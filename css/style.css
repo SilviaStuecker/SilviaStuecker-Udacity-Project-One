@@ -63,7 +63,7 @@
     }
   
     .nav-btn {
-      display: list-item;
+      /*display: list-item;*/
       color: black;
       border: none;
       /*padding: 0.1em 0.6em;*/
@@ -81,8 +81,7 @@
 
     /* Author*/
     .author{
-      width: 90%;
-      margin: auto;
+    font-style: italic;
     }
 
     .author img{
@@ -100,7 +99,7 @@
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
+      font-size: 10px;
       margin: 4px 2px;
       transition-duration: 0.4s;
       cursor: pointer;
@@ -124,6 +123,18 @@
         "hd hd"
         "sd main"
         "ft ft";
+    }
+
+    .nav-btn {
+      /*display: list-item;*/
+      color: black;
+      border: none;
+      /*padding: 0.1em 0.6em;*/
+      outline: none;
+      text-align: left;
+      font-size: 1em;
+      margin: 0 0.2em;
+      text-decoration: none;
     }
 
     div.blog img {
