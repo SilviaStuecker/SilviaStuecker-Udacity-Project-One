@@ -104,8 +104,6 @@
       transition-duration: 0.4s;
       cursor: pointer;
       border-radius: 4px;
-      width: 3cm;
-      height: 1cm;
     }
 
     .back-btn:hover {
