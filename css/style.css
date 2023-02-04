@@ -67,13 +67,11 @@
       color: black;
       border: none;
       /*padding: 0.1em 0.6em;*/
-      outline: none;
-      text-align: center;
+      /*outline: none;
+      text-align: center;*/
       font-size: 1em;
       margin: 0 0.2em;
       text-decoration: none;   
-      width: 2cm;
-      height: 0.5cm;
     }
 
     .nav-btn:focus,
@@ -106,6 +104,8 @@
       transition-duration: 0.4s;
       cursor: pointer;
       border-radius: 4px;
+      width: 3cm;
+      height: 1cm;
     }
 
     .back-btn:hover {
@@ -137,8 +137,6 @@
       font-size: 14px;
       /*margin: 0 0.2em;
       text-decoration: none;*/
-      width: 3cm;
-      height: 1cm;
     }
 
     div.blog img {
