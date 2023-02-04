@@ -99,7 +99,7 @@
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 10px;
+      font-size: 14px;
       margin: 4px 2px;
       transition-duration: 0.4s;
       cursor: pointer;
@@ -130,9 +130,9 @@
       color: black;
       border: none;
       /*padding: 0.1em 0.6em;*/
-      outline: none;
+     /* outline: none;*/
       text-align: left;
-      font-size: 9px;
+      font-size: 14px;
       /*margin: 0 0.2em;
       text-decoration: none;*/
     }
