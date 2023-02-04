@@ -133,8 +133,8 @@
       outline: none;
       text-align: left;
       font-size: 9px;
-      margin: 0 0.2em;
-      text-decoration: none;
+      /*margin: 0 0.2em;
+      text-decoration: none;*/
     }
 
     div.blog img {
