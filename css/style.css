@@ -1,4 +1,5 @@
 @import url("body.css");
+@import url("footer.css");
 
 /* small first */
 .container{
@@ -54,6 +55,7 @@
     .navbar {
       display: flex;
       align-items: center;
+      text-align: center;
       cursor: pointer;
     }
   
@@ -68,16 +70,6 @@
     .nav-btn:focus,
     .nav-btn:hover {
       color: purple;
-    }
-
-    .author{
-    font-style: italic;
-    }
-
-    .author img{
-      width: 30px;
-      height: 50px;
-      border-radius: 50%;
     }
 
     .back-btn {
@@ -128,6 +120,7 @@
 
   .navbar {
     flex-direction: column;
+    text-align: right;
   }
 
 

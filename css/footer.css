@@ -1,0 +1,9 @@
+.author{
+    font-style: italic;
+    }
+
+    .author img{
+      width: 30px;
+      height: 50px;
+      border-radius: 50%;
+    }
