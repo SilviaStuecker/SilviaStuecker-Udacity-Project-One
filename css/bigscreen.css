@@ -1,0 +1,36 @@
+  /* If Screen Is Wide Enough */
+  @media(min-width:900px){
+    .container{
+          display:grid;
+          margin:auto;
+          grid-template-columns: 15% 85%;
+          grid-template-rows: auto auto;
+          grid-template-areas:
+          "hd hd"
+          "sd main"
+          "ft ft";
+      }
+  
+      .nav-btn {
+        color: black;
+        border: none;
+        text-align: left;
+        font-size: 20px;
+        text-decoration: none;
+      }
+  
+      div.blog img {
+      width: 13cm;
+      height: 9cm;
+    }
+  
+    .picture{
+      width: 13cm;
+      height: 9cm;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      text-align: right;
+    }
+} 
